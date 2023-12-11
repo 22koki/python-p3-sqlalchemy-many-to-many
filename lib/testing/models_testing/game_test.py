@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
 from conftest import SQLITE_URL
-from models import User, Game, Review
+from models import Game, User, Review
 
 class TestGame:
     '''Game in models.py'''
